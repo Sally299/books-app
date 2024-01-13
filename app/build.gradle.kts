@@ -41,4 +41,6 @@ dependencies {
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
     implementation("com.android.support:appcompat-v7:26.1.0")
     implementation("com.android.support:design:26.1.0")
+    implementation("android.arch.navigation:navigation-fragment:1.0.0-alpha02")
+    
 }

@@ -1,10 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Night.Theme.BooksApp" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Day.Theme.BooksApp" parent="Theme.Material3.DayNight.NoActionBar">
         <item name="colorPrimary">@color/black</item>
         <item name="android:textColorPrimary">@color/white</item>
         <item name="android:textColorSecondary">@color/white</item>
-        <item name="android:icon">@color/white</item>
         <item name="android:background">@color/black</item>
+        <item name="android:panelColorBackground">@color/black</item>
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        ?android:attr/textColorPrimary
     </style>
 </resources>
